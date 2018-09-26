@@ -33,7 +33,7 @@ html, body {
   flex: 0 0 100%;
   flex-flow: column;
 
-  height: 60em;
+  height: 80em;
   background-color: rgb(255, 255, 255);
 }
 
@@ -47,10 +47,15 @@ html, body {
 .flex-column {
   display: flex;
   flex-flow: column;
+
+  align-items: stretch;
+  justify-content: center;
 }
 
 /* Flex Sizing */
 .flex-1 {
+  display: flex;
+  align-items: center;
   flex: 1;
 }
 .flex-2 {
@@ -114,4 +119,10 @@ html, body {
 
 .bg-light-purple {
   background-color: rgb(204, 166, 215);
+}
+
+/* List */
+li {
+  list-style: none;
+  height: 100px;
 }
